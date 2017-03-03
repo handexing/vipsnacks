@@ -1,0 +1,272 @@
+2017-02-27 14:35:55,210 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 14:35:55,257 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 14:35:55,326 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 14:35:55,334 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 14:35:55,336 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 14:35:55,510 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 14:35:55,846 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 14:35:55,956 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 14:35:55,959 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 14:35:56,635 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - < Path expected for join!>
+2017-02-27 14:35:56,636 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - < Path expected for join!>
+ Path expected for join!
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromJoinElement(HqlSqlWalker.java:379)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.joinElement(HqlSqlBaseWalker.java:3903)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3689)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3567)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:708)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:564)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:301)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:249)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:206)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:131)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:93)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1800)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344)
+	at com.sun.proxy.$Proxy35.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:86)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:62)
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:72)
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:53)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:141)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:209)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:74)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:416)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:206)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:251)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:237)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-02-27 14:37:20,258 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 14:37:20,295 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 14:37:20,366 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 14:37:20,368 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 14:37:20,370 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 14:37:20,530 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 14:37:20,858 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 14:37:20,966 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 14:37:20,970 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 14:37:21,665 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - < Path expected for join!>
+2017-02-27 14:37:21,665 ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - < Path expected for join!>
+ Path expected for join!
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromJoinElement(HqlSqlWalker.java:379)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.joinElement(HqlSqlBaseWalker.java:3903)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3689)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3567)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:708)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:564)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:301)
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:249)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:278)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:206)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:131)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:93)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1800)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344)
+	at com.sun.proxy.$Proxy35.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:86)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:62)
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:72)
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:53)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:141)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:209)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:74)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:416)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:206)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:251)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:237)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:92)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:125)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:109)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:261)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-02-27 14:42:16,116 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 14:42:16,157 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 14:42:16,225 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 14:42:16,227 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 14:42:16,229 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 14:42:16,410 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 14:42:16,740 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 14:42:16,846 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 14:42:16,848 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 14:42:34,401 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 14:42:34,441 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 14:42:34,514 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 14:42:34,516 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 14:42:34,518 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 14:42:34,692 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 14:42:35,030 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 14:42:35,141 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 14:42:35,144 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 15:49:45,585 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 15:49:45,631 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 15:49:45,706 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 15:49:45,708 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 15:49:45,709 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 15:49:45,878 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 15:49:46,213 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 15:49:46,325 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 15:49:46,329 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 15:52:27,173 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 15:52:27,221 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 15:52:27,310 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 15:52:27,312 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 15:52:27,313 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 15:52:27,534 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 15:52:27,918 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 15:52:28,049 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 15:52:28,052 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 15:54:47,580 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 15:54:47,637 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 15:54:47,739 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 15:54:47,741 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 15:54:47,743 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 15:54:47,972 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 15:54:48,343 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 15:54:48,480 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 15:54:48,485 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 15:56:20,894 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 15:56:20,940 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 15:56:21,024 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 15:56:21,027 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 15:56:21,029 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 15:56:21,268 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 15:56:21,645 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 15:56:21,784 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 15:56:21,787 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 15:58:24,417 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 15:58:24,465 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 15:58:24,537 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 15:58:24,539 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 15:58:24,540 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 15:58:24,713 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 15:58:25,040 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 15:58:25,150 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 15:58:25,152 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-27 15:59:31,182 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-27 15:59:31,224 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-27 15:59:31,306 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-27 15:59:31,309 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-27 15:59:31,310 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-27 15:59:31,534 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-27 15:59:31,905 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-27 15:59:32,068 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-27 15:59:32,073 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>

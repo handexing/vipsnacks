@@ -1,0 +1,55 @@
+2017-02-24 11:22:17,652 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-24 11:22:17,692 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-24 11:22:17,750 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-24 11:22:17,751 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-24 11:22:17,752 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-24 11:22:17,913 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-24 11:22:18,253 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-24 11:22:18,356 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-24 11:22:18,359 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-24 11:38:52,665 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-24 11:38:52,704 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-24 11:38:52,760 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-24 11:38:52,761 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-24 11:38:52,762 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-24 11:38:52,920 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-24 11:38:53,254 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-24 11:38:53,360 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-24 11:38:53,364 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-24 11:40:15,268 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-24 11:40:15,314 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-24 11:40:15,396 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-24 11:40:15,398 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-24 11:40:15,400 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-24 11:40:15,617 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-24 11:40:15,974 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-24 11:40:16,113 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-24 11:40:16,116 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-24 11:42:20,490 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-24 11:42:20,527 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-24 11:42:20,590 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-24 11:42:20,592 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-24 11:42:20,593 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-24 11:42:20,771 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-24 11:42:21,099 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-24 11:42:21,214 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-24 11:42:21,218 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
+2017-02-24 11:45:52,968 DEBUG [org.jboss.logging] - <Logging Provider: org.jboss.logging.Log4jLoggerProvider>
+2017-02-24 11:45:53,009 INFO [org.hibernate.jpa.internal.util.LogHelper] - <HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]>
+2017-02-24 11:45:53,073 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.3.8.Final}>
+2017-02-24 11:45:53,075 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2017-02-24 11:45:53,076 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2017-02-24 11:45:53,249 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.5.Final}>
+2017-02-24 11:45:53,600 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect>
+2017-02-24 11:45:53,699 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2017-02-24 11:45:53,702 WARN [org.hibernate.cfg.SettingsFactory] - <Unrecognized value for "hibernate.hbm2ddl.auto": none>
