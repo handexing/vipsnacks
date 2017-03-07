@@ -374,7 +374,8 @@
     	<module>snacks_api</module>
     	<module>snacks_service</module>
     	<module>snacks_common</module>
-  	</modules>
+    <module>snacks_front_web</module>
+  </modules>
   	
   	<build>
 		<plugins>
@@ -386,7 +387,7 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<compilerArguments>
-						<verbose />
+						<verbose/>
 						<bootclasspath>${JAVA_HOME}/jre/lib/rt.jar${path.separator}${JAVA_HOME}/jre/lib/jce.jar</bootclasspath>
 					</compilerArguments>
 				</configuration>
