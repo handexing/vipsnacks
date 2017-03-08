@@ -33,7 +33,6 @@ public class AdminController {
 	AdminDao adminDao;
 	@Autowired
 	AdminService adminService;
-	
 	@Autowired
 	MenuDao menuDao;
 
