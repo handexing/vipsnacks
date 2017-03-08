@@ -30,12 +30,12 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li style="color: #E50000;font-weight: bold;">休闲零食</li>
-						<li>特色零食</li>
-						<li>进口零食</li>
-						<li>饼干糕点</li>
-						<li>生鲜果蔬</li>
-						<li>茶水饮料</li>
+						<li style="color: #E50000;font-weight: bold;"><a>休闲零食</a></li>
+						<li><a>特色零食</a></li>
+						<li><a>进口零食</a></li>
+						<li><a>饼干糕点</a></li>
+						<li><a>生鲜果蔬</a></li>
+						<li><a>茶水饮料</a></li>
 					</ul>
 				</div>
 				<div id="loginAndShoppingCare">
@@ -75,14 +75,232 @@
 			</div>
 			<div id="menu_category">
 				<ul>
-					<li><img src="img/cate0.png" width="50" height="50" /><span>精品包装</span></li>
+					<li><img src="img/cate0.png" width="50" height="50" /><span>热论话题</span></li>
+					<li><img src="img/cate0.png" width="50" height="50" /><span>文章精选</span></li>
 					<li><img src="img/cate1.png" width="50" height="50" /><span>精品包装</span></li>
-					<li><img src="img/cate2.png" width="50" height="50" /><span>精品包装</span></li>
-					<li><img src="img/cate3.png" width="50" height="50" /><span>精品包装</span></li>
-					<li><img src="img/cate4.png" width="50" height="50" /><span>精品包装</span></li>
+					<li><img src="img/cate2.png" width="50" height="50" /><span>童年回忆</span></li>
+					<li><img src="img/cate4.png" width="50" height="50" /><span>宠物零食</span></li>
 				</ul>
 			</div>
 			<div id="new_goods_recommend">
+				<div class="new_goods_title" >
+					<span class="new_reco" >热门话题</span>
+					<span style="color: lightpink;font-size: 8px;">&nbsp;&nbsp;♫ ♬ ♩ ♭ ♪♫♫ ♬ ♩ ♭  ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫&nbsp;&nbsp;</span>
+					<span class="new_reco">查看更多</span>
+				</div>
+				<div class="new_goods_list">
+					<ul class="new_goods_first">
+						<li>
+							<img src="img/goods.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods1.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods5.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods4.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods3.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods2.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods5.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods1.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods3.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods5.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="new_goods_title" >
+					<span class="new_reco" >文章精选</span>
+					<span style="color: lightpink;font-size: 8px;">&nbsp;&nbsp;♫ ♬ ♩ ♭ ♪♫♫ ♬ ♩ ♭  ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫&nbsp;&nbsp;</span>
+					<span class="new_reco">查看更多</span>
+				</div>
+				<div class="new_goods_list">
+					<ul class="new_goods_first">
+						<li>
+							<img src="img/goods.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods1.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods5.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods4.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods3.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods2.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods5.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods1.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods3.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+						<li>
+							<img src="img/goods5.jpg" width="275" height="140"/>
+							<h4>零食名称零食名称零食名称</h4>
+							<h5>大哥大哥大法官的股份大股东股份大哥发的广泛地胜多负少水电费水电费是的冯绍峰的...</h5>
+							<span class="info-item">
+								<img src="img/heart.png" /><span>25</span>
+								<img src="img/pl.png" /><span>8</span>
+								<img src="img/ll.png" /><span>357</span>
+							</span>
+						</li>
+					</ul>
+				</div>
 				<div class="new_goods_title" >
 					<span class="new_reco" >新品推荐</span>
 					<span style="color: lightpink;font-size: 8px;">&nbsp;&nbsp;♫ ♬ ♩ ♭ ♪♫♫ ♬ ♩ ♭  ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫ ♬ ♩ ♭ ♪♫&nbsp;&nbsp;</span>
