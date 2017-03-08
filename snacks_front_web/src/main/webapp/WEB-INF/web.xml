@@ -3,7 +3,6 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	version="3.1">
 
-<web-app>
   <display-name>front</display-name>
   
   <context-param>
@@ -59,7 +58,7 @@
 		<servlet-name>default</servlet-name>
 		<url-pattern>/js/*</url-pattern>
 		<url-pattern>/css/*</url-pattern>
-		<url-pattern>/images/*</url-pattern>
+		<url-pattern>/img/*</url-pattern>
 		<url-pattern>/fonts/*</url-pattern>
 		<url-pattern>*.js</url-pattern>
 		<url-pattern>*.css</url-pattern>
@@ -75,6 +74,7 @@
 	</session-config>
 	
 	<welcome-file-list>
-		<welcome-file>login.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
+	
 </web-app>

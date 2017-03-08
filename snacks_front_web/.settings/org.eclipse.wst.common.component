@@ -11,7 +11,7 @@
         <dependent-module archiveName="snacks_service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/snacks_service/snacks_service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="snacks_front_web"/>
         <property name="java-output-path" value="/snacks_front_web/target/classes"/>
+        <property name="context-root" value="front"/>
     </wb-module>
 </project-modules>
